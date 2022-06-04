@@ -64,19 +64,28 @@ main {
 
 .subtitle {
   text-align: center;
+  margin-top: 5px;
 }
 
-.photos {
+// .pictures {
+//   width: 940px;
+//   margin-top: 50px;
+//   // margin-left: auto;
+//   // margin-right: auto;
+//   // text-align: center;
+// }
+
+.pictures img {
+  width: 300px;
+  height: 300px;
   margin-top: 50px;
-  text-align: center;
-}
-
-.photos img {
-  width: 280px;
-  height: 280px;
-  margin-right: 30px;
+  // margin-right: 10px;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.middlePicture {
+  margin: 0px 27px;
 }
 
 section p {
@@ -84,7 +93,7 @@ section p {
   font-size: 17px;
 }
 
-.time-total {
+.time {
   text-align: center;
   background-color: #8A98B1;
   width: 350px;
